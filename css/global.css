@@ -1,0 +1,67 @@
+body {
+    background: var(--std-bg-color);
+}
+
+header,
+main {
+    margin: 0 auto;
+    padding: 2rem;
+    width: min(100%, 65rem);
+    color: var(--regular-text-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    border: 1px solid red;
+}
+
+footer {
+    max-width: 100%;
+    background: var(--secondary-color);
+}
+
+h1 {
+    font-family: "Inter Bold", "Arial Black", sans-serif;
+}
+
+h2 {
+    font-family: "Inter Bold", "Arial Black", sans-serif;
+    font-size: 1.8rem;
+    color: var(--std-text-color);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+.label {
+    display: block;
+    padding: 0.6rem 1.2rem;
+    width: fit-content;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    background: #f4f6fd;
+    border: 1px solid #e1e8fb;
+    border-radius: 40px;
+}
+
+.box-decor {
+    position: absolute;
+}

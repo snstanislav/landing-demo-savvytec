@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/dark-theme.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/partials/header.css">
+    <link rel="stylesheet" href="css/partials/hero-section.css">
+    <link rel="stylesheet" href="css/partials/advantage-section.css">
+    <link rel="stylesheet" href="css/partials/study-section.css">
+    <link rel="stylesheet" href="css/partials/usecase-section.css">
+    <link rel="stylesheet" href="css/partials/footer.css">
+
+    <script src="js/partials/nav-menu-toggle.js"></script>
+    <script src="js/partials/study-menu.js"></script>
+    <script src="js/partials/theme-toggle.js"></script>
+    <title>Langing demo savvytec</title>
+</head>
+
+<body>
+    <header>
+        <button id="menu-toogle-btn" class="menu-toggle" aria-controls="navbar-menu" aria-expanded="false">
+            <span class="menu-toggle__ico"></span>
+            <span class="menu-toggle__ico"></span>
+            <span class="menu-toggle__ico"></span>
+        </button>
+
+        <a href="#" class="header-logo"><img src="assets/images/savvytec-logo.png" alt="savvytec head logo"></a>
+
+
+        <label id="theme-toggle-wrapper" class="theme-toggle" aria-controls="">
+            <input type="checkbox" id="theme-toggle-checkbox">
+            <span class="theme-toggle__slider"></span>
+        </label>
+
+        <nav id="navbar-menu" class="menu-bar">
+            <ul>
+                <li class="menu-bar__item">
+                    <span class="menu-bar__category">
+                        <span><a href="#" class="menu-bar__title">
+                                Kompetenzen
+                            </a></span>
+
+                        <img src="assets/icons/chevron-down.svg" alt="">
+                    </span>
+                    <ul class="menu-bar__submenu">
+                        <li class="menu-bar__submenu-item">
+                            <a href="#" class="menu-bar__submenu-link">Services</a>
+                        </li>
+                        <li class="menu-bar__submenu-item">
+                            <a href="#" class="menu-bar__submenu-link">Produktkonfigurator</a>
+                        </li>
+                        <li class="menu-bar__submenu-item">
+                            <a href="#" class="menu-bar__submenu-link">DataHub</a>
+                        </li>
+                        <li class="menu-bar__submenu-item">
+                            <a href="#" class="menu-bar__submenu-link">AI Rapid Prototyping</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="menu-bar__category">
+                        <span><a href="#" class="menu-bar__title">
+                                savvyLAB
+                            </a></span>
+                        <img src="assets/icons/chevron-down.svg" alt="">
+                    </span>
+                    <ul class="menu-bar__submenu">
+                        <li class="menu-bar__submenu-item">
+                            <a href="#" class="menu-bar__submenu-link">Forschung</a>
+                        </li>
+                        <li class="menu-bar__submenu-item">
+                            <a href="#" class="menu-bar__submenu-link">Prototypen</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="menu-bar__category">
+                        <span><a href="#" class="menu-bar__title">
+                                Unternehmen
+                            </a></span>
+                        <img src="assets/icons/chevron-down.svg" alt="">
+                    </span>
+                    <ul class="menu-bar__submenu">
+                        <li class="menu-bar__submenu-item">
+                            <a href="#" class="menu-bar__submenu-link">Jobs & Karriere</a>
+                        </li>
+                        <li class="menu-bar__submenu-item">
+                            <a href="#" class="menu-bar__submenu-link">Über uns</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="menu-bar__category">
+                        <span><a href="#" class="menu-bar__title">
+                                Kontakt
+                            </a></span>
+                    </span>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="lang"><a href="#" class="lang-active">DE</a>|<a href="#">EN</a></div>
+    </header>
+
+    <main>
+        <!-- Hero Section-->
+        <section class="hero">
+            <div class="label hero__study-label">Case-Study</div>
+            <div class="hero__intro">
+                <h1>Mercedes-Benz <br>Fahrzeug Konfigurator</h1>
+                <p>savvytec unterstützt seit über zehn Jahren Mercedes-Benz mit einem globalen Fahrzeugkonfigurator, der
+                    in über 40 Märkten weltweit Millionen Varianten effizient steuert – für konsistente Produktdaten und
+                    eine optimale User Experience.</p>
+            </div>
+            <div class="hero__slider" role="region" aria-label="Hero image slider">
+                <img src="assets/images/header-slider.png" class="hero__slider-img-item" width="100px"
+                    alt="Mercedes Slider 1">
+                <img src="assets/images/header-slider.png" class="hero__slider-img-item" width="300px"
+                    alt="Mercedes Slider 2">
+                <img src="assets/images/header-slider.png" class="hero__slider-img-item" width="100px"
+                    alt="Mercedes Slider 3">
+            </div>
+        </section>
+
+        <!-- Advantages -->
+        <section class="card">
+            <div class="card__item">
+                <img class="card__icon" src="assets/icons/unlimited.svg" alt="">
+                <h3 class="card__title">Ihr Produkt ist komplex? Kein Problem!</h3>
+                <p class="card__text">Egal wie viele Optionen, Varianten oder Sonderwünsche jede Kombination
+                    wird fehlerfrei abgebildet. Das intelligente Regelwerk prüft automatisch jede Eingabe.</p>
+            </div>
+            <div class="card__item">
+                <img class="card__icon" src="assets/icons/routing.svg" alt="">
+                <h3 class="card__title">Heute Deutschland, Morgen in der ganzen Welt</h3>
+                <p class="card__text">Ihre Lösung funktioniert überall, vom ersten Tag an. Wir übernehmen die
+                    Lokalisierung, schulen Ihre Mitarbeiter und begleiten internationale Rollouts.</p>
+            </div>
+            <div class="card__text-decor">Einfachheit trifft Unendlichkeit</div>
+            <div class="card__item">
+                <img class="card__icon" src="assets/icons/maximize-3.svg" alt="">
+                <h3 class="card__title">Ihr Konfigurator ist immer aktuell und baubar</h3>
+                <p class="card__text">Datenchaos war gestern. Wir übernehmen Ihre Vorlagen, integrieren
+                    sie per API und sorgen für eine reibungslos saubere Datenbasis.</p>
+            </div>
+            <div class="card__item">
+                <img class="card__icon" src="assets/icons/star.svg" alt="">
+                <h3 class="card__title">Markteinrichtung & Lokalisierung</h3>
+                <p class="card__text">Jeder Markt hat eigene Regeln wir bringen sie automatisch in Ihren
+                    Konfigurator: Sprachen, Preise, regionale Vorgaben.</p>
+            </div>
+            <div class="card__item">
+                <img class="card__icon" src="assets/icons/global.svg" alt="">
+                <h3 class="card__title">Automatisierte Qualitätssicherung</h3>
+                <p class="card__text">Unser System testet jede Variante, jede Logik, jeden Code automatisch.
+                    Fehler werden gefunden, bevor sie überhaupt entstehen.</p>
+            </div>
+        </section>
+
+        <!-- Case Study -->
+        <section class="study">
+            <div class="study__container">
+                <nav id="study-menu-nav" class="study__menu" role="tablist">
+                    <ul>
+                        <li class="study__menu-item study__menu-item--active">
+                            <button role="tab" aria-controls="panel-overview" aria-selected="true">
+                                <img src="assets/icons/layer.svg" alt="">
+                                <span>Projektüberblick</span>
+                            </button>
+                        </li>
+                        <li class="study__menu-item">
+                            <button role="tab" aria-controls="panel-overview">
+                                <img src="assets/icons/messages-3.png" alt="">
+                                <span>Herausforderung</span>
+                            </button>
+                        </li>
+                        <li class="study__menu-item">
+                            <button role="tab" aria-controls="panel-overview">
+                                <img src="assets/icons/lamp-on.svg" alt="">
+                                <span>Ziele & Anforderungen</span>
+                            </button>
+                        </li>
+                        <li class="study__menu-item">
+                            <button role="tab" aria-controls="panel-overview">
+                                <img src="assets/icons/chart.svg" alt="">
+                                <span>Lösung</span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="study__content" id="panel-overview">
+                    <div class="study__content-item study__content-item--active">
+                        <div class="label">PROJEKTÜBERBLICK</div>
+                        <h2>40 Märkte & Millionen Varianten</h2>
+                        <div>
+                            <p>
+                                Seit über zehn Jahren arbeiten wir für Mercedes-Benz an einem der größten digitalen
+                                Vertriebsprojekte im Automobilbereich: dem globalen Fahrzeugkonfigurator. Entstanden
+                                aus
+                                der Notwendigkeit, Millionen Varianten mit komplexen Regelwerken und
+                                länderspezifischen
+                                Anforderungen abzubilden, wurde daraus ein zentrales Vertriebstool für Endkunden,
+                                Händler und interne Systeme.
+                            </p>
+                            <p>
+                                Unsere Lösung verbindet leistungsstarke Skalierbarkeit mit
+                                absoluter Präzision: automatisierte Datenflüsse, integrierte Märkte, konsistente
+                                Preislogik und Qualitätssicherung über sämtliche Produktlinien hinweg. Damit wird
+                                maximale Komplexität unsichtbar – und die Konfiguration eines Fahrzeugs so einfach
+                                wie
+                                ein Klick.
+                            </p>
+                            <p>
+                                Heute ist der Konfigurator in über 40 Märkten im Einsatz. Er macht aus Daten
+                                Erlebnisse,
+                                aus Komplexität Klarheit – und ist für Mercedes-Benz das Rückgrat der digitalen
+                                Customer
+                                Journey.
+                            </p>
+                        </div>
+                        <div class="study__content-nav">
+                            <div class="study__content-nav--forward">
+                                <a>Herausforderung</a>
+                                <img class="arrow" src="assets/icons/arrow-icon-right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="study__content-item">
+                        <div class="label">HERAUSFORDERUNG</div>
+                        <h2>Reibungsloser und skalierbarer Software-Rollout</h2>
+                        <div>
+                            <p>
+                                Ein erfolgreicher Software-Rollout ist entscheidend für den Übergang von der
+                                Entwicklung
+                                in den produktiven Betrieb. Wir unterstützen Sie dabei mit klar definierten
+                                Prozessen,
+                                realistischer Planung und technischer Präzision. Unser Rollout-Service richtet sich
+                                an
+                                Unternehmen, die neue Systeme zuverlässig, strukturiert und ohne Reibungsverluste in
+                                Betrieb nehmen wollen, intern wie extern.
+                            </p>
+                        </div>
+                        <div class="study__content-nav">
+                            <div class="study__content-nav--back">
+                                <img class="arrow" src="assets/icons/arrow-icon-left.png" alt="">
+                                <a>Projektüberblick</a>
+                            </div>
+                            <div class="study__content-nav--forward">
+                                <a>Ziele & Anforderungen</a>
+                                <img class="arrow" src="assets/icons/arrow-icon-right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="study__content-item">
+                        <div class="label">ZIELE & ANFORDERUNGEN</div>
+                        <h2>Digitale Strategien & Roadmaps</h2>
+                        <div>
+                            <p>
+                                Digitale Vorhaben scheitern nicht an Ideen, sie scheitern an falschen Entscheidungen
+                                in
+                                frühen Phasen. Genau dort setzen wir an: Unsere technische IT-Beratung vereint
+                                tiefes
+                                Verständnis für moderne Systemarchitekturen mit unternehmerischem Denken. Wir
+                                analysieren Ihre Ausgangssituation präzise, erkennen Potenziale und gestalten auf
+                                dieser
+                                Basis belastbare, zukunftsfähige IT-Strategien.
+                            </p>
+                        </div>
+                        <div class="study__content-nav">
+                            <div class="study__content-nav--back">
+                                <img class="arrow" src="assets/icons/arrow-icon-left.png" alt="">
+                                <a>Herausforderung</a>
+                            </div>
+                            <div class="study__content-nav--forward">
+                                <a>Lösung</a>
+                                <img class="arrow" src="assets/icons/arrow-icon-right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="study__content-item">
+                        <div class="label">LÖSUNG</div>
+                        <h2>Intuitive und Individuelle Softwareentwicklung</h2>
+                        <div>
+                            <p>
+                                Als erfahrenes Team aus Entwickler:innen, UI/UX-Designer:innen und IT-Strateg:innen
+                                entwickeln wir maßgeschneiderte Software, genau abgestimmt auf Ihre Anforderungen,
+                                Nutzergruppen und Geschäftsziele. Ob komplexe B2B-Plattform, Webanwendung oder
+                                internes
+                                Tool: Wir verbinden technologische Exzellenz mit klarem, nutzerzentriertem Design.
+                            </p>
+                        </div>
+                        <div class="study__content-nav">
+                            <div class="study__content-nav--back">
+                                <img class="arrow" src="assets/icons/arrow-icon-left.png" alt="">
+                                <a>Ziele & Anforderungen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="box-decor study__decor-left" src="assets/images/swing-box2.png" alt="">
+                <img class="box-decor study__decor-right" src="assets/images/swing-box1.png" alt="">
+        </section>
+
+        <!-- Use-Case Blocks -->
+        <section class="usecase">
+            <h2 class="usecase__title">So können Sie Liefernetzwerke neu erfinden</h2>
+            <div class="usecase__wrapper">
+                <div class="usecase__item">
+                    <p class="usecase__text usecase__text--small">Weltweit skalierbar <br>für neue Märkte</p>
+                    <p class="usecase__text usecase__text--large">Weltweit skalierbar <br>für neue Märkte</p>
+                </div>
+                <div class="usecase__item">
+                    <p class="usecase__text usecase__text--small">Weltweit skalierbar <br>für neue Märkte</p>
+                    <p class="usecase__text usecase__text--large">Weltweit skalierbar <br>für neue Märkte</p>
+                </div>
+                <img src="assets/images/savvytec_bild.png" alt="savvytec team"
+                    class="usecase__item usecase__item--team">
+                <div class="usecase__item">
+                    <p class="usecase__text usecase__text--small">Weltweit skalierbar <br>für neue Märkte</p>
+                    <p class="usecase__text usecase__text--large">Weltweit skalierbar <br>für neue Märkte</p>
+                </div>
+                <div class="usecase__item usecase__item--additional">
+                    <p class="usecase__text usecase__text--small">Weltweit skalierbar <br>für neue Märkte</p>
+                    <p class="usecase__text usecase__text--large">Weltweit skalierbar <br>für neue Märkte</p>
+                </div>
+                <div class="usecase__item usecase__item--extra">
+                    <p class="usecase__text usecase__text--small">Weltweit skalierbar <br>für neue Märkte</p>
+                    <p class="usecase__text usecase__text--large">Weltweit skalierbar <br>für neue Märkte</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img class="box-decor footer__decor-left" src="assets/images/footer-swing2.png" alt="">
+        <img class="box-decor footer__decor-right" src="assets/images/footer-swing1.png" alt="">
+
+        <!-- CTA -->
+        <section class="cta">
+            <p class="slogan-regular cta__text">Lust mit uns zu arbeiten?</p>
+            <p class="slogan-accentuated cta__text">Legen wir los.</p>
+
+            <div>
+                <button class="cta__button">
+                    Als Kunde
+                </button>
+                <button class="cta__button">
+                    Als savvyler
+                </button>
+            </div>
+
+        </section>
+
+        <!-- Abschluss -->
+        <section class="page-basement">
+            <div class="page-basement__social">
+                <div class="page-basement__linkedin">
+                    Begleite savvytec <img src="assets/icons/footer_linkedin-icon.svg" alt="Linkedin logo">
+                </div>
+            </div>
+
+            <div class="page-basement__base">
+                <div class="page-basement__community">
+                    <div>
+                        <p class="slogan-regular page-basement__text">Lust mit uns zu arbeiten?</p>
+                        <p class="slogan-accentuated page-basement__text">Legen wir los.</p>
+                    </div>
+                    <div class="page-basement__partners">
+                        <img class="page-basement__partners-google" src="assets/images/footer_google-icon.png"
+                            alt="Google logo">
+                        <img class="page-basement__partners-research" src="assets/icons/footer_forschung-icon.svg"
+                            alt="Research logo">
+                        <img class="page-basement__partners-tisax" src="assets/images/footer-tisax.png"
+                            alt="Tisax logo">
+                    </div>
+                </div>
+
+                <div class="page-basement__col page-basement__services">
+                    <h4 class="page-basement__title">Leistungen</h4>
+                    <ul>
+                        <li><a href="#">Entwicklung</a></li>
+                        <li><a href="#">Consulting</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Rolloutunterstützung</a></li>
+                        <li><a href="#">CI/CD</a></li>
+                        <li><a href="#">Cloud Migration</a></li>
+                    </ul>
+                </div>
+                <div class="page-basement__col page-basement__products">
+                    <h4 class="page-basement__title">Produkte</h4>
+                    <ul>
+                        <li><a href="#">savvyNow</a></li>
+                        <li><a href="#">Produktkonfigurator</a></li>
+                        <li><a href="#">Data Hub</a></li>
+                    </ul>
+                </div>
+                <div class="page-basement__col page-basement__company">
+                    <h4 class="page-basement__title">Unternehmen</h4>
+                    <ul>
+                        <li><a href="#">Über Uns</a></li>
+                        <li><a href="#">Jobs & Karriere</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Forschung</a></li>
+                        <li><a href="#">Entwicklung</a></li>
+                    </ul>
+                </div>
+                <div class="page-basement__col page-basement__contacts">
+                    <h4 class="page-basement__title">Projekt anfragen</h4>
+                    <ul>
+                        <li><a href="mailto:info@savvytec.de">info@savvytec.de</a></li>
+                        <li><a href="tel:+4952515088066">+49 5251 5088066</a></li>
+                        <li>Technologiepark 18 33100 Paderborn Deutschland</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="page-basement__legal-bar">
+                <ul>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">Datenschutz</a></li>
+                    <li><a href="#">Cookies bearbeiten</a></li>
+                </ul>
+                <div class="page-basement__copyright">© 2025 savvytec GmbH & Co. KG. All rights reserved.</div>
+            </div>
+
+        </section>
+    </footer>
+</body>
+
+</html>
