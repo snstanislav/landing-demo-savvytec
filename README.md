@@ -9,7 +9,7 @@ Recreation of a test landing page according to the provided design example.
 
 ## Getting Started
 
-### 1. GitGub
+### 1. GitHub
 ```bash
 cd <your_folder>
 git clone https://github.com/snstanislav/landing-demo-savvytec.git
