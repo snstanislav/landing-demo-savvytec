@@ -9,7 +9,8 @@
 
 .hero__study-label {
     justify-self: center;
-    color: #1a2a6b;
+     color: var(--label-text-color);
+    background: var(--label-bg-color);
 }
 
 .hero__intro {

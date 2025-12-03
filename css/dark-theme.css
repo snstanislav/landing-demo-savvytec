@@ -7,6 +7,9 @@
     --large-text-color: #4887d4;
     --large-text-color-fixed: #315f72;
 
+    --label-text-color: #f4f6fd;
+    --label-bg-color: #0b5caa;
+
     --secondary-color: #0b5caa;
     --secondary-text-color-fixed: #fff;
     --secondary-light-color: linear-gradient(to right top, #333, #777, #eee) ;
