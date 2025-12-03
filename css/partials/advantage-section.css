@@ -9,12 +9,12 @@
 .card .card__item {
     padding: 1.3rem;
     border-radius: 7px;
-    box-shadow: 1px 2px 10px #eee;
+    box-shadow: 1px 2px 10px #ddd;
     transition: 0.3s ease;
 }
 
 .card .card__item:hover {
-    box-shadow: 3px 4px 15px #eee;
+    box-shadow: 3px 4px 15px #ddd;
     transform: scale(1.05);
 }
 
@@ -49,10 +49,7 @@
             #5292c1,
             #2f1473);
     -webkit-background-clip: text;
-    /* for Chrome/Safari */
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    /* for Firefox (with prefix support) */
 
     background-clip: text;
     padding: 1rem;

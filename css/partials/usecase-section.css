@@ -1,11 +1,11 @@
-
-.usecase{
+.usecase {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     margin-bottom: 5rem;
     padding: 0;
 }
+
 .usecase__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,7 +61,7 @@
 }
 
 .usecase__item--extra {
-    grid-row: 3/5;
+    grid-row: 3 / 5;
     background: var(--secondary-extra-color);
 }
 

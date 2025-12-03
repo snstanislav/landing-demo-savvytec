@@ -62,7 +62,6 @@ header {
 }
 
 /* Logo */
-
 .header-logo img {
     display: inline-block;
     height: 2rem;
@@ -118,7 +117,6 @@ header {
     font-family: "Inter Bold", Helvetica, sans-serif;
     font-weight: bold;
 }
-
 
 @media screen and (max-width: 700px) {
     header {

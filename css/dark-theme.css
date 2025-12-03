@@ -9,10 +9,8 @@
 
     --secondary-color: #0b5caa;
     --secondary-text-color-fixed: #fff;
-
     --secondary-light-color: linear-gradient(to right top, #333, #777, #eee) ;
     --secondary-light-color-fixed: #c8efe2;
-
     --secondary-extra-color: #ff6248;
 
     --theme-toggle-background: #0c67bc;

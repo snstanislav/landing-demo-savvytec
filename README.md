@@ -23,8 +23,8 @@ docker pull stanislav47/landing-demo-savvytec:latest
 docker run --rm -p 80:80 stanislav47/landing-demo-savvytec
 ```
 Now the page is avalable on http://localhost:80/  
+To stop running press Ctrl+C  
 
-To stop running press **Ctrl + C**
 ---
 
 ## Page structure
