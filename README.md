@@ -3,19 +3,28 @@
 
 Recreation of a test landing page according to the provided design example.
 
-**Live demo:** https://landing-page-demo-savvytec.vercel.app/
+**Live demo:** https://landing-demo-savvytec.vercel.app/
 
 ---
 
 ## Getting Started
 
-### Clone
+### 1. GitGub
 ```bash
 cd <your_folder>
 git clone https://github.com/snstanislav/landing-demo-savvytec.git
 ```
-Now start page index.html is avalable from <your_folder>
+Now the start page index.html is avalable from <your_folder>
 
+### 2. DockerHub
+```bash
+cd <your_folder>
+docker pull stanislav47/landing-demo-savvytec:latest
+docker run --rm -p 80:80 stanislav47/landing-demo-savvytec
+```
+Now the page is avalable on http://localhost:80/  
+
+To stop running press **Ctrl + C**
 ---
 
 ## Page structure
