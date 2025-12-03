@@ -1,3 +1,7 @@
+* {
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -16,7 +20,6 @@ header {
     background: none;
     border: none;
     cursor: pointer;
-
 }
 
 .menu-toggle .menu-toggle__ico {
