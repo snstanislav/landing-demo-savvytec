@@ -46,7 +46,6 @@ header {
     gap: 1rem;
     padding: 1.5rem 0.5rem 0.5rem;
     background: var(--std-bg-color);
-    transition: 0.5s ease-out;
 }
 
 .menu-bar ul {
@@ -62,59 +61,6 @@ header {
     transition: 0.2s ease;
 }
 
-/* Theme switcher */
-
-.theme-toggle {
-    position: relative;
-    display: inline-block;
-    width: 70px;
-    height: 30px;
-    background: transparent;
-}
-
-.theme-toggle input {
-    width: 0;
-    height: 0;
-    opacity: 0;
-}
-
-.theme-toggle__slider {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    justify-content: end;
-    padding: 4px 10px;
-    overflow: hidden;
-    font-size: 10pt;
-    color: #fff;
-    background: var(--theme-toggle-background);
-    border: 0px solid #000;
-    border-radius: 35px;
-    cursor: pointer;
-    transition: .5s ease-out;
-}
-
-.theme-toggle__slider:before {
-    content: "";
-    position: absolute;
-    inset: 4px 5px;
-    width: 22px;
-    height: 22px;
-    background: var(--std-bg-color);
-    border-radius: 35px;
-    box-shadow: 2px 0px 10px #666;
-}
-
-.theme-toggle input:checked+.theme-toggle__slider {
-    justify-content: start;
-    background: var(--theme-toggle-background);
-}
-
-.theme-toggle input:checked+.theme-toggle__slider:before {
-    box-shadow: -2px 0px 10px #999;
-    transform: translateX(38px);
-}
-
 /* Logo */
 
 .header-logo img {
@@ -125,7 +71,6 @@ header {
 /* Navigation bar */
 .menu-bar {
     padding: 0;
-
 }
 
 .menu-bar>ul {
@@ -137,12 +82,16 @@ header {
 .menu-bar .menu-bar__category {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+}
 
+.menu-bar__category>img {
+    height: 0.7rem;
 }
 
 .menu-bar .menu-bar__category .menu-bar__title {
     color: var(--large-text-color);
-
 }
 
 .menu-bar__submenu-link {
@@ -150,7 +99,6 @@ header {
 }
 
 /* Lang */
-
 .lang {
     display: flex;
     flex-direction: row;
@@ -183,7 +131,7 @@ header {
 
     .menu-bar {
         position: absolute;
-        top: 4rem;
+        top: 3.6rem;
         left: 0;
         width: 100%;
         max-width: 100%;
@@ -191,25 +139,25 @@ header {
         z-index: 20;
         display: none;
         padding: 1.5rem;
-
     }
 
     .menu-bar__title {
         font-family: "Inter", Arial, sans-serif;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 
     .menu-bar__submenu-item {
-        text-indent: 1.5rem;
+        text-indent: 1.7rem;
         font-size: 0.9rem;
         max-width: 100%;
     }
 
     .menu-bar__submenu-link {
         display: block;
+        padding: 0.5rem 0;
         max-width: 100%;
-        font-size: 0.9rem;
+        font-size: 1.3rem;
     }
 
     .menu-bar__submenu-link:hover {
@@ -250,22 +198,18 @@ header {
         order: 3;
     }
 
-    .theme-toggle {
+    theme-toggle {
         order: 4;
     }
 
     .menu-toggle {
-        
         display: none;
-        /*visibility: hidden;*/
         width: 0;
         height: 0;
     }
 
     .menu-bar .menu-bar__category {
-
-        padding: 0.2rem 0;
-        /*border: 1px solid red;*/
+        padding: 0.3rem 0;
     }
 
     .menu-bar .menu-bar__category>span {
@@ -275,11 +219,9 @@ header {
         overflow: hidden;
     }
 
-
     .menu-bar>ul {
         flex-direction: row;
     }
-
 
     .menu-bar>ul>li {
         position: relative;
@@ -296,18 +238,14 @@ header {
         top: 1.2rem;
         display: inline-block;
         width: 100%;
-
-        height: 2px;
+        height: 3px;
         background: var(--std-text-color);
-
         transform: translateX(-101%);
         transition: 0.2s ease-in;
-
     }
 
     .menu-bar .menu-bar__category:hover .menu-bar__title::after {
         transform: translateX(0);
-        
     }
 
     .menu-bar .menu-bar__submenu {
@@ -325,15 +263,12 @@ header {
         visibility: hidden;
     }
 
-
     .menu-bar .menu-bar__category:hover+.menu-bar__submenu,
     .menu-bar__submenu:hover {
         z-index: 1;
         background: var(--std-bg-color);
-
         visibility: visible;
     }
-
 
     .menu-bar .menu-bar__submenu .menu-bar__submenu-link {
         display: block;

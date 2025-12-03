@@ -12,8 +12,8 @@
     top: 6rem;
     left: 50%;
     z-index: -1;
-    width: 120vw;
-    height: 38rem;
+    width: 98vw;
+    height: 40rem;
     background: var(--secondary-light-color);
     transform: translateX(-50%) skewY(-3deg);
 }

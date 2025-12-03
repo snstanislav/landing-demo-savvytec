@@ -15,5 +15,6 @@
     --secondary-light-color-fixed: #edf8f4;
     --secondary-extra-color: #ff6248;
 
-    --theme-toggle-background: #f80 url('../../assets/icons/day-mode-ico.png') right / contain no-repeat;
+    --theme-toggle-background: #f80;
+    --theme-toggle-shadow: #666; 
 }

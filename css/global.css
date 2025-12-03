@@ -1,5 +1,6 @@
 body {
     background: var(--std-bg-color);
+    transition: background 0.5s ease-in, color 0.5s ease-in;
 }
 
 header,
@@ -15,7 +16,6 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    border: 1px solid red;
 }
 
 footer {

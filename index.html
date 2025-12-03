@@ -16,9 +16,11 @@
     <link rel="stylesheet" href="css/partials/usecase-section.css">
     <link rel="stylesheet" href="css/partials/footer.css">
 
+    <script src="js/components/theme-toggle.js"></script>
     <script src="js/partials/nav-menu-toggle.js"></script>
     <script src="js/partials/study-menu.js"></script>
-    <script src="js/partials/theme-toggle.js"></script>
+    <script src="js/partials/slider-carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <title>Langing demo savvytec</title>
 </head>
 
@@ -32,11 +34,8 @@
 
         <a href="#" class="header-logo"><img src="assets/images/savvytec-logo.png" alt="savvytec head logo"></a>
 
-
-        <label id="theme-toggle-wrapper" class="theme-toggle" aria-controls="">
-            <input type="checkbox" id="theme-toggle-checkbox">
-            <span class="theme-toggle__slider"></span>
-        </label>
+        <theme-toggle day-icon="assets/icons/day-mode-ico.png"
+            night-icon="assets/icons/night-mode-ico.png"></theme-toggle>
 
         <nav id="navbar-menu" class="menu-bar">
             <ul>
@@ -46,7 +45,7 @@
                                 Kompetenzen
                             </a></span>
 
-                        <img src="assets/icons/chevron-down.svg" alt="">
+                        <img src="assets/icons/chevron-down.png" alt="">
                     </span>
                     <ul class="menu-bar__submenu">
                         <li class="menu-bar__submenu-item">
@@ -68,7 +67,7 @@
                         <span><a href="#" class="menu-bar__title">
                                 savvyLAB
                             </a></span>
-                        <img src="assets/icons/chevron-down.svg" alt="">
+                        <img src="assets/icons/chevron-down.png" alt="">
                     </span>
                     <ul class="menu-bar__submenu">
                         <li class="menu-bar__submenu-item">
@@ -84,7 +83,7 @@
                         <span><a href="#" class="menu-bar__title">
                                 Unternehmen
                             </a></span>
-                        <img src="assets/icons/chevron-down.svg" alt="">
+                        <img src="assets/icons/chevron-down.png" alt="">
                     </span>
                     <ul class="menu-bar__submenu">
                         <li class="menu-bar__submenu-item">
@@ -142,7 +141,7 @@
                 <p class="card__text">Ihre Lösung funktioniert überall, vom ersten Tag an. Wir übernehmen die
                     Lokalisierung, schulen Ihre Mitarbeiter und begleiten internationale Rollouts.</p>
             </div>
-            <div class="card__text-decor">Einfachheit trifft Unendlichkeit</div>
+            <div class="card__text-decor"><span>Einfachheit trifft Unendlichkeit</span></div>
             <div class="card__item">
                 <img class="card__icon" src="assets/icons/maximize-3.svg" alt="">
                 <h3 class="card__title">Ihr Konfigurator ist immer aktuell und baubar</h3>

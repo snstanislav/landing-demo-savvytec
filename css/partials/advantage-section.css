@@ -37,21 +37,39 @@
 }
 
 .card .card__text-decor {
-    background: linear-gradient(red, orange, yellow, green, blue);
+    padding: 1rem 0 0 1rem;
+}
+
+.card .card__text-decor span {
+    position: relative;
+    background: linear-gradient(70deg,
+            #1e8d76,
+            #42ab96,
+            #d2f6ef,
+            #5292c1,
+            #2f1473);
     -webkit-background-clip: text;
     /* for Chrome/Safari */
     -webkit-text-fill-color: transparent;
     background-clip: text;
     /* for Firefox (with prefix support) */
 
-
     background-clip: text;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 2.7rem;
+    font-weight: bold;
 }
 
-.card .card__text-decor::after {
+.card .card__text-decor span::after {
     content: "";
+    position: absolute;
+    top: 11.5rem;
+    right: 1rem;
+    width: 11rem;
+    height: 0.3rem;
+    background-color: var(--secondary-extra-color);
+    border-radius: 5px;
+    transform: skewY(-3grad);
 }
 
 @media screen and (max-width: 900px) {
