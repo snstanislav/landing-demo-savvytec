@@ -28,7 +28,6 @@ header {
     width: 100%;
     background: var(--large-text-color);
     border-radius: 15px;
-    transition: 0.3s ease;
 }
 
 .menu-toggle.active span:nth-child(1) {
